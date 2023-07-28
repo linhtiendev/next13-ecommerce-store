@@ -25,9 +25,7 @@ export default function RootLayout({
       <body 
         className={font.className}>
           <ModalProvider />
-          <ToastProvider>
-
-          </ToastProvider>
+          <ToastProvider />
           <Navbar />
           {children}
           <Footer />
